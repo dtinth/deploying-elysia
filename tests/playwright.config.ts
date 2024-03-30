@@ -41,6 +41,12 @@ export default defineConfig({
         baseURL: "http://localhost:8787",
       },
     },
+    {
+      name: "Firebase Cloud Functions",
+      use: {
+        baseURL: "http://127.0.0.1:5001/demo-elysia/us-central1/elysia/",
+      },
+    },
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
