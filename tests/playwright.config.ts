@@ -35,6 +35,12 @@ export default defineConfig({
         baseURL: "http://localhost:8000",
       },
     },
+    {
+      name: "Cloudflare Workers",
+      use: {
+        baseURL: "http://localhost:8787",
+      },
+    },
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
